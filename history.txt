@@ -1,0 +1,94 @@
+    1   git confid --global user.name "Alina"
+    2  git config --global user.email "vita23minka@gmail.com"
+    3  git config --global -l
+    4  mkdir Linux&Git
+    5  echo "Test text" >> file.txt
+    6  git config --global user.name "Alina"
+    7  git config --global -l
+    8  echo "Test text" >>file1.txt
+    9  mkdir Linux&Git
+   10  ls -al
+   11  echo "Test text" >> file1.txt
+   12  echo "Test text" >> file2.txt
+   13  git init
+   14  ls -al
+   15  ls -al .git/
+   16  git status
+   17  git add
+   18  git status
+   19  git add .
+   20  [200~
+   21  git add .gitattributes
+   22  git commit -m " Add .gitattributes file to fix line ending issues"
+   23  git add .
+   24  git status
+   25  cat ~/.shh
+   26  cat ~/ .shh
+   27  cat ~/ .ssh
+   28  cat ~/.ssh
+   29  cat ~/.ssh
+   30  cd ~/.ssh
+   31  ls
+   32  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   33  cd ~/Documents/git_intro
+   34  C:\Users\Alina\Documents\Kurs\LinuxGit\git_intro
+   35  cd C:\Users\Alina\Documents\Kurs\LinuxGit\git_intro
+   36  cd /c/Users/Alina/Documents/Kurs/LinuxGit/git_intro
+   37  ls
+   38  touch .gitignore
+   39  ls
+   40  ls -a
+   41  git add .gitignore
+   42  git commit -m "Добавлен файл .gitignore"
+   43  git push
+   44  git clone ~https://github.com/Alinka3/fork-bomb~
+   45  git clone https://github.com/Alinka3/fork-bomb.git
+   46  cd fork-bomb
+   47  git status
+   48  cd /c/Users/Alina/Documents/Kurs/LinuxGit
+   49  mkdir git-branch
+   50  cd git-branch
+   51  git init
+   52  git checkout -b gitignore
+   53  touch .gitignore
+   54  notepad .gitignore
+   55  git add .gitignore
+   56  git add .gitignore
+   57  git commit -m "Добавлен файл .gitignore"
+   58  git remote add origin https://github.com/Alinka3/git-branch.git
+   59  git push -u origin gitignore
+   60  [200~ls -al ~/.ssh
+   61  ls -al ~/.ssh
+   62  [200~ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de~
+   63  ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   64  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   65  [200~npm install -g sass
+   66  npm install -g sass
+   67  node -v
+   68  sd ~/ .ssh
+   69  cd ~/ .ssh
+   70  cd ~/.ssh
+   71  ls -l
+   72  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   73  git clone https://github.com/Alinka3/my-projec
+   74  pwd
+   75  cd ~
+   76  git clone https://github.com/Alinka3/my-projec
+   77  cd my-project
+   78  ls
+   79  cd my-projec
+   80  cd my-project
+   81  mv ~/my-projec ~/my-project
+   82  cd ~/my-project
+   83  git checkout -b feature
+   84  echo "# My Project" > README.md
+   85  echo "node_modules/" > .gitignore
+   86  git add .
+   87  git commit -m "Added README and updated .gitignore"
+   88  git push origin feature
+   89  git commit --amend -m "Added README and updated .gitignore (amend)"
+   90  git push origin feature --force
+   91  git checkout main
+   92  git merge feature
+   93  git push origin main
+   94  history > history.txt
